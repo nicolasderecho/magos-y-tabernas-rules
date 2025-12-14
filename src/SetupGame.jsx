@@ -41,22 +41,18 @@ const SetupGame = ({ onClick = () => {} }) => (
                     </p>
                     <ul className="list-disc list-inside space-y-2 ml-4">
                         <li className="flex items-center gap-2">
-                            <span className="w-2 h-2 bg-slate-400 rounded-full flex-shrink-0"></span>
                             <span>Se saca 1 Flash &nbsp; &nbsp;&nbsp;</span>
                             <img src={flashCard} alt="Flash card" className="h-32 w-auto inline-block ml-2 rounded-lg shadow-lg" />
                         </li>
                          <li className="flex items-center gap-2">
-                            <span className="w-2 h-2 bg-slate-400 rounded-full flex-shrink-0"></span>
                             <span>Se saca 1 Energia</span>
                             <img src={EnergyCard} alt="Flash card" className="h-32 w-auto inline-block ml-2 rounded-lg shadow-lg" />
                         </li>
                         <li className="flex items-center gap-2">
-                            <span className="w-2 h-2 bg-slate-400 rounded-full flex-shrink-0"></span>
                             <span>Se saca 1 Fuego&nbsp;&nbsp;&nbsp;</span>
                             <img src={FireCard} alt="Flash card" className="h-32 w-auto inline-block ml-2 rounded-lg shadow-lg" />
                         </li>
                         <li className="flex items-center gap-2">
-                            <span className="w-2 h-2 bg-slate-400 rounded-full flex-shrink-0"></span>
                             <span>Se intercambia la Carta Hielo por la carta Ice.</span>
                             <img src={IceBaseCard} alt="Flash card" className="h-32 w-auto inline-block ml-2 rounded-lg shadow-lg" />
                             <ArrowLeftRight className="text-amber-400 flex-shrink-0" size={32} />
@@ -64,7 +60,6 @@ const SetupGame = ({ onClick = () => {} }) => (
                         </li>
                         <br/>
                         <li className="flex items-center gap-2">
-                            <span className="w-2 h-2 bg-slate-400 rounded-full flex-shrink-0"></span>
                             <span>Se separan los anillos aparte del resto de las cartas</span>
                         </li>
                     </ul>
