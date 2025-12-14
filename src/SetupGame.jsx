@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChevronLeft } from 'lucide-react';
+import { ChevronLeft, ArrowLeftRight } from 'lucide-react';
 import flashCard from './assets/images/flash.jpg';
 import EnergyCard from './assets/images/energia.jpg';
 import FireCard from './assets/images/fuego.jpg';
@@ -41,7 +41,7 @@ const SetupGame = ({ onClick = () => {} }) => (
                     <ul className="list-disc list-inside space-y-2 ml-4">
                         <li className="flex items-center gap-2">
                             <span className="w-2 h-2 bg-slate-400 rounded-full flex-shrink-0"></span>
-                            <span>Se saca 1 Flash</span>
+                            <span>Se saca 1 Flash &nbsp; &nbsp;&nbsp;</span>
                             <img src={flashCard} alt="Flash card" className="h-32 w-auto inline-block ml-2 rounded-lg shadow-lg" />
                         </li>
                          <li className="flex items-center gap-2">
@@ -51,16 +51,21 @@ const SetupGame = ({ onClick = () => {} }) => (
                         </li>
                         <li className="flex items-center gap-2">
                             <span className="w-2 h-2 bg-slate-400 rounded-full flex-shrink-0"></span>
-                            <span>Se saca 1 Fuego</span>
+                            <span>Se saca 1 Fuego&nbsp;&nbsp;&nbsp;</span>
                             <img src={FireCard} alt="Flash card" className="h-32 w-auto inline-block ml-2 rounded-lg shadow-lg" />
                         </li>
                         <li className="flex items-center gap-2">
                             <span className="w-2 h-2 bg-slate-400 rounded-full flex-shrink-0"></span>
                             <span>Se intercambia la Carta Hielo por la carta Ice.</span>
                             <img src={IceBaseCard} alt="Flash card" className="h-32 w-auto inline-block ml-2 rounded-lg shadow-lg" />
+                            <ArrowLeftRight className="text-amber-400 flex-shrink-0" size={32} />
                             <img src={IceCard} alt="Flash card" className="h-32 w-auto inline-block ml-2 rounded-lg shadow-lg" />
                         </li>
-                        <li>Se separan los anillos aparte del resto de las cartas</li>
+                        <br/>
+                        <li className="flex items-center gap-2">
+                            <span className="w-2 h-2 bg-slate-400 rounded-full flex-shrink-0"></span>
+                            <span>Se separan los anillos aparte del resto de las cartas</span>
+                        </li>
                     </ul>
                     <br/>
                     <p className="leading-relaxed mb-4">
