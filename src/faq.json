@@ -1,0 +1,162 @@
+[
+    {
+        "question": "Si somos 4 jugadores ¿se puede jugar 2 vs 2?",
+        "answer": "Si. Se puede jugar todos contra todos o 2 vs 2, aunque de a 4 el modo 2 vs 2 suele funcionar mucho mejor. En este caso cada jugador tiene sus orbes y sus cartas enfrente de la cerveza, pero si uno gana también gana su compañero. Por lo que favorece a que se ayuden entre si."
+    },
+    {
+        "question":"¿Se puede jugar de a 2?",
+        "answer": "La realidad es que el juego está hecho para jugar de a 3 o 4 jugadores. Sin embargo si están muy entusiasmados como para querer jugar de a 2 pueden hacerlo sacando la carta <b>Escudo</b> del mazo." 
+    },
+    { "question": "Si pierdo mi turno porque me jugaron Hielo ¿puedo seguir usando cartas instantáneas o consumiendo objetos de costo 0?",
+        "answer": "Si. Siempre podés jugar cartas instantáneas y consumir objetos que cuesten 0."
+    },
+    {   
+        "question": "Cuando pago el orbe para anular la carta interrupción ¿ ese orbe va al que jugó la carta o va al pozo?", 
+        "answer": "Va al que jugó la carta. La carta dice: anula algo a menos que <b>TE</b> paguen un orbe."
+    },
+    {   
+        "question": "Cuando alguien paga el orbe para que la carta Fuego destruya 2 gemas ¿ese orbe va al que consumió la carta o va al pozo?", 
+        "answer": "Va al pozo."
+    },
+    {   
+        "question": "Si yo intento consumir la carta gema pero me anulan o interrumpen la acción ¿Se puede plagiar igualmente esta carta gema, o como se terminó anulando no se puede?", 
+        "answer": "Si, se puede plagiar igual porque la carta fue jugada."
+    },
+    {   
+        "question": "Si alguien juega Fuego y pagan orbe para que destruya 2 gemas ¿Puedo proteger ambas gemas consumiendo 1 círculo de protección?", 
+        "answer": "Si. El círculo de protección te protege de <b>un ataque</b>, y aunque la carta fuego pudiera destruir 2 gemas sigue siendo el mismo ataque, por lo que al consumir el círculo de protección ambas gemas quedarían intactas."
+    },
+    {   
+        "question": "Si alguien juega fuego para atacar 2 gemas(porque alguien paga el orbe) de diferentes jugadores, se puede defender ambas gemas con 1 solo círculo de protección?", 
+        "answer": "No. Si bien círculo de protección te protege de <b>un ataque</b>(independientemente de cuantas gemas te ataquen) dicho ataque <b>debe ser sobre el mismo jugador</b>. En caso que el jugador que jugó Fuego hubiese elegido atacar 2 gemas del mismo jugador ahí sí se pueden defender ambas con un solo círculo, pero si ataca a 2 jugadores diferentes entonces se necesitan 2 círculos."
+    },
+    {   
+        "question": "Si alguien juega fuego para atacar una gema y la víctima se defiende usando un círculo de protección ¿se puede volver a atacarlo (por ejemplo usando plagio) o el círculo volvería a defender su gema?", 
+        "answer": "Podés volver a atacarlo. El plagio(o lo que se usara para atacar la gema) se convierte en otro ataque. Por lo que deberían usar otro círculo para defenderse."
+    },
+    {   
+        "question": "¿Se puede usar el círculo de protección para protegerte de alguien que te quiera matar una carta con gema de vida usando Destruir?", 
+        "answer": "No. La carta <b>Destruir</b> ataca directamente a la <b>carta</b> que se elija, mientras que <b>círculo de protección</b> te defiende tus <b>gemas</b> de un ataque, por lo que no te serviría para este caso."
+    },
+    {   
+        "question": "¿Puedo jugar Flash con cartas de objeto con gema de vida?", 
+        "answer": "Si (Excepto la <b>Bomba</b>). En ese caso se terminaría aplicando el efecto de consumir la carta."
+    },
+    {   
+        "question": "Si me juegan interrupción y solo tengo una Gema ¿Puedo convertir mi Gema en orbes para pagarle al jugador y anular su interrupción?", 
+        "answer": "No. Las gemas no pueden convertirse en orbes."
+    },
+    {   
+        "question": "¿La carta Destruir puede destruir cartas objeto con gema de vida? ¿O tiene que se carta objeto común?", 
+        "answer": "Puede destruir cartas objeto comunes y cartas objeto con gema de vida."
+    },
+    {   
+        "question": "Si yo juego Atacar y me lo anulan ¿se puede plagiar mi carta Atacar? ", 
+        "answer": "Mientras sea dentro del mismo turno, si. La carta llegó a jugarse por lo que puede plagiarse. Que la hayan anulado no afecta al plagio."
+    },
+    {   
+        "question": "Si alguien juega asaltar ¿la víctima puede defenderse jugando todas las cartas de su mano? ¿ En ese caso el que juega la carta asaltar puede cambiar de víctima?", 
+        "answer": "Mientras que sean cartas de coste 0 es una jugada válida, por lo tanto puede hacerse. Si esto ocurre el que jugó la carta <b>NO</b> puede cambiar de víctima, por lo que su carta termina quedando sin efecto. "
+    },
+    {   
+        "question": "Estoy a 1 orbe de ganar. Un jugador ataca una de mis gemas y yo juego interrupción ¿Que pasa si alguien paga el orbe para anular la interrupción?", 
+        "answer": "Al pagarte el orbe llegas a 3 gemas, por lo que ganaste. Como la carta de interrupción se jugó último, se resuelve primero. Es por eso que conseguís las 3 gemas y terminás antes que el efecto de la carta que jugaron te ataque alguna gema."
+    },
+    {   
+        "question": "Cuando se juega en el modo 2 vs 2 ¿Las gemas, orbes y cartas se comparten?", 
+        "answer": "No. Cada uno tiene sus cartas, gemas y orbes como de costumbre. La diferencia es que si uno del equipo gana, el otro también."
+    },
+    {   
+        "question": "¿Puedo usar apurarse y darle los 2 puntos de acción a otro jugador?", 
+        "answer": "Si. La carta indica que un <b>jugador</b> recibe 2 puntos de acción para consumir en ese instante, pero no estás obligado a que ese jugador seas vos, por lo que podés elegir a otro."
+    },
+    {   
+        "question": "¿Puedo consumir mi carta gema y luego plagiar 2 veces el consumo en ese instante para terminar agarrando 3 gemas en total?", 
+        "answer": "No. Cada jugador tiene permitido plagiar <b>UNA</b> sola vez la <b>misma</b> carta gema. En este caso estarías tratando de plagiar <b>2 veces la misma carta gema</b>, que no se puede. Un caso que si sería válido es:<br/><ul><li>Tenés en tu mano Flash, Gema y 2 plagios. Además tenés bajada una carta Gema.</li><li>En tu turno consumís la carta gema que ya habías bajado. (obtenés 1 Gema).</li><li>Plagias el consumo de esa carta (obtenés 1 Gema).</li><li>Jugás Flash + la otra carta gema que tenías en tu mano. (obtenés 1 Gema).</li><li>Plagias la <b>segunda carta gema</b> que recién usaste. (obtenés 1 Gema).</li></ul>"
+    },
+    {   
+        "question": "¿El círculo de protección protege solo mis gemas o puedo usarlo para proteger las de otro?", 
+        "answer": "Podés usarlo para proteger las gemas de otro jugador."
+    },
+    {   
+        "question": "Si juego Apurarse y en ese momento un oponente Plagia mi Apurarse ¿Quién juega primero sus 2 puntos de acción?", 
+        "answer": "La regla es siempre la misma: la última en jugarse se resuelve primero. Por lo que primero juega sus 2 puntos el que plagio el <b>apurarse</b>, y luego el que jugó <b>apurarse</b>."
+    },
+    {   
+        "question": "¿Puedo usar anulador para evitar que alguien pida orbe, tome carta o baje una carta de objeto?", 
+        "answer": "Si. podés anular cualquier cosa. (salvo los poderes de los anillos en caso de jugar la expansion, con la salvedad mencionada debajo del Ring of Denial)"
+    },
+    {   
+        "question": "¿Puedo usar anulador o interrupción para evitar que alguien use los poderes de sus anillos?", 
+        "answer": "No. Ni los efectos pasivos ni los Ring powers de los anillos pueden anularse. La unica excepcion es el Ring of Denial donde su poder pasivo actúa como si se hubiera jugado un anulador en la mesa, por lo que puede anularse y/o plagiarse."
+    },
+    {   
+        "question": "¿La carta interrupción sirve para bloquear las mismas acciones que el anulador? ¿O hay ciertas cosas que solo un anulador evita?", 
+        "answer": "La carta interrupción puede bloquear lo mismo que el anulador. La diferencia es que con la carta interrupción pueden pagarte un orbe para dejar la carta sin efecto."
+    },
+    {   
+        "question": "Si juego Apurarse ¿Puedo gastar mis 2 puntos de acción en pedir un orbe y agarrar una carta del mazo?", 
+        "answer": "Ambas acciones cuestan 1 punto, por lo que si, podés hacer eso. También podrías pedir 2 orbes o agarrar 2 cartas."
+    },
+    {   
+        "question": "¿Puedo jugar Flash + Bomba para que explote al instante y me de el orbe?", 
+        "answer": "No. Esa jugada no puede hacerse."
+    },
+    {   
+        "question": "¿Que cartas pueden plagiarse? ¿Cuando puedo hacerlo?", 
+        "answer": "La carta Plagio puede copiar (plagiar) una carta de hechizo, una carta instantánea o el <b>consumo</b> de una carta de objeto que se haya jugado <b>durante ese turno</b>. Plagio es una carta instantánea, por lo que puede jugarse en cualquier momento. Supongamos esta secuencia en una partida de 3 jugadores:<br/><ul><li>El 1er jugador gasta su punto de acción jugando <b>Atacar</b> para destruir una gema del 2do jugador, pero la víctima <b>consume</b> un anulador para evitarlo. Finaliza su turno.</li><li>El 2do jugador comienza su turno (por lo que ya no puede plagiar <b>Atacar</b> ni el <b>consumo</b> de la carta anulador). Gasta su punto de acción bajando la carta Libros. <b>Nadie</b> puede plagiar la carta Libros porque <b>no se consumió</b>, únicamente se bajó en la mesa.</li><li>Le toca al 3er jugador. Gasta su punto consumiendo una carta Gema que tenía bajada en la mesa, por lo que se agrega una gema. En este momento <b>si se puede plagiar</b> la carta gema porque precisamente <b>acaba de consumirse</b>. Por lo que si algún jugador tuviera la carta plagio, podría usarla para sumarse una gema.</li></ul>"
+    },
+    {   
+        "question": "Si consumo la carta Fuego para atacar la gema de alguien y un jugador paga un orbe para que ataque 2 pero solo quedan gemas mías en la mesa, ¿estoy obligado a destruir una gema mia?", 
+        "answer": "Si!. La carta dice que <b>si alguien paga el orbe</b> hay que atacar 2 gemas, por lo que si las únicas que quedan en la mesa son tuyas no te queda alternativa más que destruir una de ellas."
+    },
+    {   
+        "question": "Si tengo el máximo de cartas permitidas en mi mano, puedo de todas formas gastar mi punto de acción para tomar una carta del mazo?", 
+        "answer": "Si!. podés tomar todas las cartas que te permitan tus puntos de acción, pero al finalizar el turno no podés tener más cartas que el máximo permitido en tu mano, por lo que si ya no te quedan puntos de acción para jugarlas tendrás que descartarlas."
+    },
+    {   
+        "question": "Si usan Fuego (con pago de orbe para matar 2 gemas) para atacar a 1 gema de un jugador y una gema de otro, y uno de ellos usa interrupción o anulador para bloquear el ataque, ¿anula también al otro?", 
+        "answer": "Si! Si anulas o interrumpís la carta que causa el ataque la anulás por completo, por lo que se salvan ambas gemas. Sería diferente si el jugador se hubiera defendido usando círculo de protección, ya que no anula ni interrumpe el ataque, solo te protege de el, y por lo tanto en esta situación solo hubiera defendido la gema del jugador que lo usó, manteniendo el ataque hacia el otro."
+    },
+    {   
+        "question": "Si cuando estoy bajando una carta de objeto (u objeto con gema de vida) en la mesa alguien usa anulador o interrupción para anular dicha acción ¿la carta vuelve a mi mano o se va al pozo de descarte?", 
+        "answer": "La carta se va al pozo de descarte."
+    },
+    {   
+        "question": "¿En qué momento el pozo de descarte vuelve a convertirse en el mazo donde se agarran cartas? ¿Apenas se acaban las cartas del mazo o en el momento en que alguien quiere pedir una carta y ya no hay más?", 
+        "answer": "En el momento en el que se roba la ultima carta."
+    },
+    {   
+        "question": "Si nadie de mis rivales tiene cartas en la mano ¿Puedo jugar espía de todas formas para conseguir 1 orbe?", 
+        "answer": "Si. Es una jugada válida."
+    },
+    {   
+        "question": "Si alguien juega espía y la víctima contraataca jugando todas las cartas que le iban a espiar ¿Sigue obteniendo 1 orbe el que jugó espía?", 
+        "answer": "Si. En el caso que la víctima hiciera eso (por ejemplo porque todas sus cartas eran instantáneas) el que jugó espía sigue obteniendo el orbe correspondiente."
+    },
+    {   
+        "question": "Si alguien paga el orbe cuando un jugador ataca con Fuego y luego dicho ataque es anulado o interrumpido ¿recupera el orbe o se pierde?", 
+        "answer": "El orbe se pierde y la carta Fuego se descarta."
+    },
+    {   
+        "question": "¿Se pueden consumir cartas objeto que uno haya bajado aunque no sirvieran de nada para poder así liberar el espacio para bajar otra? por ej: consumir Círculo de protección cuando no te están atacando o consumir fuego cuando no hay ninguna gema que atacar.", 
+        "answer": "Si. Es una jugada posible."
+    },
+    {   
+        "question": "Si juego destruir sobre una carta de objeto y la víctima se defiende jugando Flash + Apurarse para consumir dicha carta con uno de sus turnos ¿puede el atacante elegir destruir otra carta (si tuviera) o simplemente termina sin destruir nada?", 
+        "answer": "En ese caso el atacante se queda sin destruir nada."
+    },
+    {   
+        "question": "Si Juegan Fuego y alguien paga el orbe para que ataque 2 gemas ¿se puede usar Anular/Interrumpir para anular únicamente el efecto de que ataque 2 gemas? ¿o se anula el ataque entero en caso que se juegue alguna de estas cartas? ", 
+        "answer": "Se anula la carta Fuego entera."
+    },
+    {   
+        "question": "¿El pozo de descarte puede revisarse en cualquier momento para ver si vale la pena consumir Libros o solo puede hacerse al momento de utilizarla? ", 
+        "answer": "Idealmente no se puede ver el pozo, hay que recordar que hay. Pero no es una regla explícita, por lo que si todos los jugadores están de acuerdo pueden hacerlo (preferentemente definiéndolo antes de comenzar la partida)."
+    },
+    {   
+        "question": "Cuando alguien consume Fuego ¿Se puede decidir si se paga el orbe o no luego de que el atacante dijo a que gema iba a atacar? ¿o primero se define si se paga el orbe y luego el atacante elige el/las gema/s que ataca?", 
+        "answer": "No hay ninguna regla explícita que indique que hacer en ese caso, por lo que queda a interpretación de los jugadores."
+    }
+
+]

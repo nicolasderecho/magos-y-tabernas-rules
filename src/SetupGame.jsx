@@ -5,6 +5,7 @@ import EnergyCard from './assets/images/energia.jpg';
 import FireCard from './assets/images/fuego.jpg';
 import IceBaseCard from './assets/images/hielo.jpg';
 import IceCard from './assets/images/ice.png';
+import RingOfResilience from './assets/images/rings/ring-of-resilience.PNG';
 
 const SetupGame = ({ onClick = () => {} }) => (
 
@@ -76,10 +77,29 @@ const SetupGame = ({ onClick = () => {} }) => (
                 <div className="explanation-section">
                     <h2 className="text-2xl font-bold text-red-400 mb-4">Como jugar la expansion</h2>
                     <p className="leading-relaxed">
-                        En la expansion del juego, primero se comienza repartiendo al azar 2 anillos a cada jugador. Estos quedan a la vista de todos boca arriba. Cada anillo da un poder pasivo que se desribe en la carta. Adicionalmente algunos anillos tienen un poder extra que solo puede usarse una vez en todo el juego cuando el jugador quiera aplicarlo.
+                        En la expansion del juego, primero se comienza repartiendo al azar 2 anillos a cada jugador. Estos quedan a la vista de todos boca arriba. Cada anillo da un poder pasivo que se desribe en la carta. Adicionalmente algunos anillos tambien tienen un Ring power extra que solo puede usarse una vez en todo el juego cuando el jugador quiera aplicarlo.
                     </p>
-                    <br/>
-                    <p>El resto del reglamento es identico al del juego base.</p>
+                    <div className="flex justify-center my-6">
+                        <img 
+                            src={RingOfResilience} 
+                            alt="Ring of Resilience" 
+                            className="h-80 w-auto rounded-lg shadow-2xl"
+                        />
+                    </div>
+                    <p className="leading-relaxed mb-4">
+                        Por ejemplo en este anillo el efecto pasivo que tiene le permite al jugador recibir un orbe cada vez que le destruyan una gema. Y ademas de ese poder, una unica vez puede activar el Ring power que le permitiria obtener un orbe por cada gema que haya en juego.
+                    </p>
+                    
+                    <p className="leading-relaxed">
+                        El resto del reglamento es identico al del juego base.
+                    </p>
+                </div>
+
+                <div className="explanation-section">
+                    <h2 className="text-2xl font-bold text-red-400 mb-4">Como jugar en parejas</h2>
+                    <p className="leading-relaxed">
+                        Cuando hay 4 jugadores, si no quieren jugar todos contra todos es posible jugar en parejas. En ese caso cada pareja se ubica enfrentada en la mesa y juegan 2 vs 2. Las reglas son las mismas de siempre, con el unico agregado que si un jugador llegar a obtener la cerveza, su compañero tambien gana.
+                    </p>
                 </div>
 
             </div>
