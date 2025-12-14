@@ -1,0 +1,85 @@
+Base:
+
+
+Cartas de Accion
+2 atacar
+2 Destruir
+2 Apurarse
+1 Asaltar
+
+Cartas instantaneas
+
+4 Plagio
+1 Espia
+2 Flash
+4 Energia
+1 Intuicion
+2 Interrupcion
+
+
+
+Cartas Objeto
+
+1 Agujero Negro
+1 Bomba
+1 Escudo
+3 Circulo Proteccion
+4 Fuego
+2 Gema
+1 Generador
+2 Libros
+3 Anulador
+1 Hielo
+
+
+============================================
+
+Expansion
+
+Cartas de Accion
+2 Atacar
+2 Destruir
+2 Apurarse
+1 Asaltar
+1 Extort
+1 Dig
+
+Cartas Instantaneas
+
+4 Plagio
+1 Espia
+1 Flash
+3 Energia
+1 Intuicion
+2 Interrupcion
+2 Inteligencia
+1 Hardening
+1 Crack
+2 Sprint
+
+Cartas de Objeto
+
+1 Agujero negro
+1 Bomba
+1 Escudo
+3 Circulo de Proteccion
+3 Fuego
+2 Gemas
+1 Generador
+2 Libros
+3 Anulador
+1 Hielo
+1 Chest
+1 Scales
+1 Power Stone
+1 Tower Stone
+1 Mining Stone
+
+Para cambiar de base a expansion
+
+sacar 1 flash
+sacar 1 energia
+sacar 1 fuego
+cambiar la carta hielo por Ice
+
+https://www.mercadolibre.com.ar/folios-protectores-cartas-x100u-juego-de-mesa-varios-tamanos/up/MLAU3383859134?pdp_filters=item_id:MLA1516917357#is_advertising=true&searchVariation=MLAU3383859134&backend_model=search-backend&position=2&search_layout=stack&type=pad&tracking_id=ef08506b-376c-4f2a-8f51-5ac3b6a22fc3&ad_domain=VQCATCORE_LST&ad_position=2&ad_click_id=YTg4MzkxNjgtZDllNi00YWE3LTg0YTAtNDI1YmIxZGFhYmFh

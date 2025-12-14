@@ -1,5 +1,10 @@
 import React from 'react';
 import { ChevronLeft } from 'lucide-react';
+import flashCard from './assets/images/flash.jpg';
+import EnergyCard from './assets/images/energia.jpg';
+import FireCard from './assets/images/fuego.jpg';
+import IceBaseCard from './assets/images/hielo.jpg';
+import IceCard from './assets/images/ice.png';
 
 const SetupGame = ({ onClick = () => {} }) => (
 
@@ -22,38 +27,56 @@ const SetupGame = ({ onClick = () => {} }) => (
 
             <div className="text-content-wrapper">
                 <div className="explanation-section">
-                    <h2 className="text-2xl font-bold text-red-400 mb-4">Preparación Inicial</h2>
+                    <h2 className="text-2xl font-bold text-red-400 mb-4">Como preparar el Juego base</h2>
                     <p className="leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Para jugar al juego base de Magos y Tabernas (sin la expansion "Lord of Destruction") solo tenes que usar las cartas que estan en español 🇦🇷. Todas las cartas que esten en Inglés 🇺🇸 y los anillos se descartan ya que forman parte de la expansion.
                     </p>
                 </div>
 
                 <div className="explanation-section">
-                    <h2 className="text-2xl font-bold text-red-400 mb-4">Distribución de Cartas</h2>
+                    <h2 className="text-2xl font-bold text-red-400 mb-4">Como preparar la expansión</h2>
                     <p className="leading-relaxed mb-4">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Para jugar a la expansión se toman todas las cartas del juego y se hace lo siguiente:
                     </p>
                     <ul className="list-disc list-inside space-y-2 ml-4">
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-                    <li>Sed do eiusmod tempor incididunt ut labore</li>
-                    <li>Ut enim ad minim veniam, quis nostrud exercitation</li>
-                    <li>Duis aute irure dolor in reprehenderit</li>
+                        <li className="flex items-center gap-2">
+                            <span className="w-2 h-2 bg-slate-400 rounded-full flex-shrink-0"></span>
+                            <span>Se saca 1 Flash</span>
+                            <img src={flashCard} alt="Flash card" className="h-32 w-auto inline-block ml-2 rounded-lg shadow-lg" />
+                        </li>
+                         <li className="flex items-center gap-2">
+                            <span className="w-2 h-2 bg-slate-400 rounded-full flex-shrink-0"></span>
+                            <span>Se saca 1 Energia</span>
+                            <img src={EnergyCard} alt="Flash card" className="h-32 w-auto inline-block ml-2 rounded-lg shadow-lg" />
+                        </li>
+                        <li className="flex items-center gap-2">
+                            <span className="w-2 h-2 bg-slate-400 rounded-full flex-shrink-0"></span>
+                            <span>Se saca 1 Fuego</span>
+                            <img src={FireCard} alt="Flash card" className="h-32 w-auto inline-block ml-2 rounded-lg shadow-lg" />
+                        </li>
+                        <li className="flex items-center gap-2">
+                            <span className="w-2 h-2 bg-slate-400 rounded-full flex-shrink-0"></span>
+                            <span>Se intercambia la Carta Hielo por la carta Ice.</span>
+                            <img src={IceBaseCard} alt="Flash card" className="h-32 w-auto inline-block ml-2 rounded-lg shadow-lg" />
+                            <img src={IceCard} alt="Flash card" className="h-32 w-auto inline-block ml-2 rounded-lg shadow-lg" />
+                        </li>
+                        <li>Se separan los anillos aparte del resto de las cartas</li>
                     </ul>
-                </div>
-
-                <div className="explanation-section">
-                    <h2 className="text-2xl font-bold text-red-400 mb-4">Configuración del Tablero</h2>
-                    <p className="leading-relaxed">
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                    <br/>
+                    <p className="leading-relaxed mb-4">
+                        Y listo! ya con eso queda listo el mazo para jugar la expansión
                     </p>
                 </div>
 
                 <div className="explanation-section">
-                    <h2 className="text-2xl font-bold text-red-400 mb-4">Inicio del Juego</h2>
+                    <h2 className="text-2xl font-bold text-red-400 mb-4">Como jugar la expansion</h2>
                     <p className="leading-relaxed">
-                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.
+                        En la expansion del juego, primero se comienza repartiendo al azar 2 anillos a cada jugador. Estos quedan a la vista de todos boca arriba. Cada anillo da un poder pasivo que se desribe en la carta. Adicionalmente algunos anillos tienen un poder extra que solo puede usarse una vez en todo el juego cuando el jugador quiera aplicarlo.
                     </p>
+                    <br/>
+                    <p>El resto del reglamento es identico al del juego base.</p>
                 </div>
+
             </div>
         </div>
         </div>
