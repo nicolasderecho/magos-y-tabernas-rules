@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { ChevronLeft } from 'lucide-react';
 import SetupGame from './SetupGame.jsx';
-import FAQPage from './SetupGame.jsx';
+import FAQPage from './FaqPage.jsx';
 
-const RULES_LINK = "https://d26lpennugtm8s.cloudfront.net/stores/117/811/rte/Reglamento-Magos-y-tabernas.pdf"
+//const EXTERNAL_RULES_LINK = "https://d26lpennugtm8s.cloudfront.net/stores/117/811/rte/Reglamento-Magos-y-tabernas.pdf"
+const RULES_LINK = "/rules.pdf"
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState('home');
