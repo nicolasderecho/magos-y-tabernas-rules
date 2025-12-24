@@ -54,7 +54,7 @@ const SetupGame = ({ onClick = () => {} }) => (
                         </li>
                         <li className="flex items-center gap-2">
                             <div className="flex flex-col sm:flex-row items-center gap-2 flex-1 overflow-x-auto">
-                                <span className="text-sm sm:text-base">Se intercambia la Carta Hielo por la carta Ice.</span>
+                                <span className="text-sm sm:text-base">Se cambia la Carta "Hielo" por "Ice".</span>
                                 <div className="flex items-center gap-2">
                                     <img src={IceBaseCard} alt="Ice base card" className="h-24 sm:h-32 w-auto rounded-lg shadow-lg" />
                                     <ArrowLeftRight className="text-amber-400 flex-shrink-0" size={24} />
