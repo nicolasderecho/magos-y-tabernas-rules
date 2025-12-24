@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { ChevronLeft } from 'lucide-react';
 import SetupGame from './SetupGame.jsx';
 import FAQPage from './FaqPage.jsx';
@@ -8,6 +8,27 @@ const RULES_LINK = "/rules.pdf"
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState('home');
+
+  // Sync state with URL hash
+  useEffect(() => {
+    const handleHashChange = () => {
+      const hash = window.location.hash.slice(1) || 'home';
+      setCurrentPage(hash);
+    };
+
+    // Set initial page from hash
+    handleHashChange();
+
+    // Listen for hash changes (back/forward buttons)
+    window.addEventListener('hashchange', handleHashChange);
+
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, []);
+
+  const navigateTo = (page) => {
+    window.location.hash = page;
+    setCurrentPage(page);
+  };
 
   const HomePage = () => (
     <div className="page-container">
@@ -22,7 +43,7 @@ const App = () => {
           
           <div className="p-8 md:p-12 space-y-6">
             <button 
-              onClick={() => setCurrentPage('setup')}
+              onClick={() => navigateTo('setup')}
               className="w-full bg-gradient-to-b from-blue-600 to-blue-800 hover:from-blue-500 hover:to-blue-700 text-white font-bold py-6 px-8 rounded-lg shadow-lg transform transition hover:scale-105 border-2 border-blue-900 text-xl uppercase tracking-wide"
             >
               🎲 Cómo Armar el Juego
@@ -40,7 +61,7 @@ const App = () => {
             </a>
 
             <button 
-              onClick={() => setCurrentPage('faq')}
+              onClick={() => navigateTo('faq')}
               className="w-full bg-gradient-to-b from-amber-600 to-amber-800 hover:from-amber-500 hover:to-amber-700 text-white font-bold py-6 px-8 rounded-lg shadow-lg transform transition hover:scale-105 border-2 border-amber-900 text-xl uppercase tracking-wide"
             >
               ❓ FAQ
@@ -60,8 +81,8 @@ const App = () => {
   return (
     <>
       {currentPage === 'home' && <HomePage />}
-      {currentPage === 'setup' && <SetupGame onClick={ () => setCurrentPage('home') } />}
-      {currentPage === 'faq' && <FAQPage onClick={ () => setCurrentPage('home') } />}
+      {currentPage === 'setup' && <SetupGame onClick={() => navigateTo('home')} />}
+      {currentPage === 'faq' && <FAQPage onClick={() => navigateTo('home')} />}
     </>
   );
 };

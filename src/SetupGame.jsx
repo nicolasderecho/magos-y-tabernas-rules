@@ -53,10 +53,14 @@ const SetupGame = ({ onClick = () => {} }) => (
                             <img src={FireCard} alt="Flash card" className="h-32 w-auto inline-block ml-2 rounded-lg shadow-lg" />
                         </li>
                         <li className="flex items-center gap-2">
-                            <span>Se intercambia la Carta Hielo por la carta Ice.</span>
-                            <img src={IceBaseCard} alt="Flash card" className="h-32 w-auto inline-block ml-2 rounded-lg shadow-lg" />
-                            <ArrowLeftRight className="text-amber-400 flex-shrink-0" size={32} />
-                            <img src={IceCard} alt="Flash card" className="h-32 w-auto inline-block ml-2 rounded-lg shadow-lg" />
+                            <div className="flex flex-col sm:flex-row items-center gap-2 flex-1 overflow-x-auto">
+                                <span className="text-sm sm:text-base">Se intercambia la Carta Hielo por la carta Ice.</span>
+                                <div className="flex items-center gap-2">
+                                    <img src={IceBaseCard} alt="Ice base card" className="h-24 sm:h-32 w-auto rounded-lg shadow-lg" />
+                                    <ArrowLeftRight className="text-amber-400 flex-shrink-0" size={24} />
+                                    <img src={IceCard} alt="Ice card" className="h-24 sm:h-32 w-auto rounded-lg shadow-lg" />
+                                </div>
+                            </div>
                         </li>
                         <br/>
                         <li className="flex items-center gap-2">
